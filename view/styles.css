@@ -1,0 +1,285 @@
+@font-face {
+    font-family: inter;
+    src: url("Inter/static/Inter_18pt-Light.ttf");
+  }
+  @font-face {
+    font-family: inter_Dark;
+    src: url("Inter/static/Inter_18pt-Dark.ttf");
+  }
+  @font-face {
+    font-family: silkFlower;
+    src: url("SilkFlowerDemo/Silk Flower.otf");
+  }
+  @font-face{
+    font-family:jakartaSans ;
+    src:url(Plus_Jakarta_Sans/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf)
+
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECE7E1;
+    color: #3E3F5B;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    /* green banner on top of site */
+    display: flex;
+    background-color: #2C3930;
+    color: #FFFFFF;
+    width: 100%;
+    height: 10vh;
+    /* font: inter; have to download font? */
+}
+#top-title{
+    /* the website title on left corner of site */
+    display: flex;
+    padding-top: 4vh;
+    padding-left: 5vw;
+    font: inter;
+    font-size: medium;
+}
+.nav-items{
+    /* div that holds the naviagtion links within banner */
+    display: flex;  /* determines the distance space-bewteen sets the text  */
+    justify-content: space-between;
+    padding-top: 4vh;
+    padding-left: 43vw;
+    gap: 2vw;
+    font-family: inter;
+    font-size: medium;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.welcome{
+    font-family: silkFlower;
+    font-size: 75px;
+    width: 50vw;
+    height: fit-content;
+    padding-left: 11vw;
+    padding-top: 5vh;
+    display: block;
+    animation: fadeIn 1s ease-out forwards;
+   
+}
+
+.intro{
+  position: absolute;
+  font-family: jakartaSans;
+  font-size: 22px;
+  width: 38vw;
+  margin-top: 15vh;
+  margin-left: 58vw;
+}
+.image{
+    position: absolute;
+    display: flex;
+    width:33vw ;
+    height: 52vh;
+    margin-top: 3vh;
+    margin-left:9.58vw;
+}
+.rec{
+    /* shape */
+    background-color: black;
+    width: 23vw;
+    height:6.5vh;
+    border-radius: 1vw;
+    /* text */
+    color: white;
+    font-family: silkFlower;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+#one{
+    position: absolute;
+    margin-left: 6.4vw;
+    margin-top: 54vh;
+}
+#two{
+    position: absolute;
+    width: 15vw;
+    margin-left: 32.4vw;
+    margin-top: 54vh;
+}
+#three{
+    position: absolute;
+    width: 45vw;   
+    margin-left: 50.4vw;
+    margin-top: 54vh;
+}
+hr{
+    background-color: #3E3F5B;
+    height: 0.16vh;
+    width: 84vw;
+    border: none;
+
+}
+footer{
+    color: #3E3F5B;
+    font-size: 45px;
+    font-family: silkFlower;
+    margin-left: 8.19vw;
+    margin-top: 92vh;
+}
+container{   
+    /* spacing of the divs */
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    gap: 4.5vw;
+    /* text */
+    font-family:jakartaSans ;
+    color: black;
+}
+.square{
+    background-color: #D9D9D9;
+    width:38vw;
+    height:62vh;
+    margin-top: 9vh;
+    border: none;
+}
+
+.jobTitle{
+    font-weight: bold;
+    margin-left: 6vw;
+    margin-top: 4vh;
+    width: 18vw;
+}
+.companyInfo{
+    margin-top: 3vh;
+    margin-left:4vw ;
+    width:32vw;
+    font-size: 1.6vh;
+}
+#date{
+    display: block; 
+    color: #828282;
+    line-height: 1;
+}
+.jobDescription{
+    margin-top: 8vh;
+    margin-left:2vw ;
+    width:30vw;
+    font-weight: light;   
+}
+li {
+    margin-bottom: 1vh;
+}
+.logo{
+    display: flex;
+    gap: 34vw;
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    height: 13vh;
+    aspect-ratio: 1/1;
+}
+.project{
+    margin-top: 28vh;
+}
+.projectTitle{
+    
+    color: black;
+    font-family: inter_Dark;
+    font-weight: bold;
+    padding-top: 4vh;
+    margin-left: 27vw;
+    margin-bottom: 5vh; 
+    font-size: 1.5vw;
+}
+.projectTitle:hover{
+    color: #3d40a5;
+}
+#projectDate{
+    margin-left: 16vw;
+    font-size: 1.3vw;
+}
+.projectTitle:hover #projectDate{
+    color: black;
+    
+}
+.gameImage{
+    width: 25vw;
+    margin: auto;
+    display: block;
+    aspect-ratio: 2.5/1;
+    font-size: 1.3vw;
+}
+.gameImage:hover{
+    transform: scale(1.2);
+    opacity: 2;
+}
+.projectDescription{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    width: 35vw;
+    font-family: inter;
+    line-height: 4vh;
+    color: #828282;
+    font-size: 1.3vw;
+}
+.LEA{
+    margin-top: 27vh;
+}
+.LEA_Section{
+    font-family: inter_Dark;
+    margin-top: 6vh;
+    height: 62vh;
+}
+.LEA_CU{
+    display: flex;
+    font-weight: 900;
+    gap: 53vw;
+    margin-left: 8.19vw; 
+}
+.LEA_UP{
+    display: flex;
+    margin-top: 3vh;
+    font-weight: 900;
+    gap: 65.5vw;
+    margin-left: 8.19vw; 
+}
+.LEA_Role{
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 8.19vw;
+    font-style: italic;
+}
+.role_CM{
+    display: flex;
+    gap: 27.5vw;
+}
+.role_FEC{
+    gap: 20vw;
+
+}
+.role_UPA{
+    gap: 24vw;
+
+}
+.LEA_Date{
+    font-style: normal;
+    font-family: inter;
+    font-size: 1.7vh;
+}
+.LEA_Description{
+    margin-left: 8.19vw;
+    font-family: inter; 
+}
+.Contact{
+    background-color: white;
+    width:100vw ;
+    height: 12vh;
+}
