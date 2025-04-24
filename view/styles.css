@@ -1,46 +1,47 @@
+/* font familes */
 @font-face {
     font-family: inter;
     src: url("Inter/static/Inter_18pt-Light.ttf");
   }
-  @font-face {
+@font-face {
     font-family: inter_Dark;
     src: url("Inter/static/Inter_18pt-Dark.ttf");
   }
-  @font-face {
+@font-face {
     font-family: silkFlower;
     src: url("SilkFlowerDemo/Silk Flower.otf");
   }
-  @font-face{
+@font-face{
     font-family:jakartaSans ;
-    src:url(Plus_Jakarta_Sans/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf)
-
+    src:url(Plus_Jakarta_Sans/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
   }
-
+/* how high up naviagted sections are displayed on the site when clicking nav-items*/
 :root{
-    scroll-padding-top: 12vh;
+    scroll-padding-top: 15vh;
 }
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #ECE7E1;
     color: #3E3F5B;
-    margin: 0;
-    padding: 0;
 }
 .link:hover{
     color: #797979c7;
 }
+ /* green banner on top of site */
 .nav-bar{
-    /* green banner on top of site */
     display: flex;
+    /* Nav bar visible while scrolling */
     position: fixed;
     background-color: #2C3930;
     color: #FFFF;
-    top: 0; 
     width: 100%;
     height: 10vh;
+    /* Other elements are behind nav bar */
     z-index: 1000;
 }
 a{
+    /* so links don't change text*/
     text-decoration:none; 
     color:inherit;
 }
@@ -199,7 +200,7 @@ li {
     aspect-ratio: 1/1;
 }
 .project{
-    margin-top: 28vh;
+    margin-top: 20vh;
 }
 .projectTitle{
     
@@ -243,7 +244,7 @@ li {
     font-size: 1.3vw;
 }
 .LEA{
-    margin-top: 27vh;
+    margin-top: 20vh;
 }
 .LEA_Section{
     font-family: inter_Dark;
