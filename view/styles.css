@@ -15,6 +15,10 @@
     src:url(Plus_Jakarta_Sans/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf)
 
   }
+
+:root{
+    scroll-padding-top: 12vh;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #ECE7E1;
@@ -22,32 +26,41 @@ body {
     margin: 0;
     padding: 0;
 }
+.link:hover{
+    color: #797979c7;
+}
 .nav-bar{
     /* green banner on top of site */
     display: flex;
+    position: fixed;
     background-color: #2C3930;
-    color: #FFFFFF;
+    color: #FFFF;
+    top: 0; 
     width: 100%;
     height: 10vh;
-    /* font: inter; have to download font? */
+    z-index: 1000;
+}
+a{
+    text-decoration:none; 
+    color:inherit;
 }
 #top-title{
     /* the website title on left corner of site */
     display: flex;
     padding-top: 4vh;
-    padding-left: 5vw;
+    padding-left: 4vw;
     font: inter;
     font-size: medium;
+    font-style: italic;
 }
 .nav-items{
     /* div that holds the naviagtion links within banner */
     display: flex;  /* determines the distance space-bewteen sets the text  */
     justify-content: space-between;
     padding-top: 4vh;
-    padding-left: 43vw;
-    gap: 2vw;
+    padding-left: 48vw;
     font-family: inter;
-    font-size: medium;
+    gap: 2vw;
 }
 @keyframes fadeIn {
     from {
@@ -64,12 +77,10 @@ body {
     width: 50vw;
     height: fit-content;
     padding-left: 11vw;
-    padding-top: 5vh;
+    padding-top: 15vh;
     display: block;
     animation: fadeIn 1s ease-out forwards;
-   
 }
-
 .intro{
   position: absolute;
   font-family: jakartaSans;
@@ -99,7 +110,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-    
+}
+.rec:hover{
+    transform: scale(1.13);
 }
 #one{
     position: absolute;
@@ -218,7 +231,6 @@ li {
 }
 .gameImage:hover{
     transform: scale(1.2);
-    opacity: 2;
 }
 .projectDescription{
     margin-left: auto;
@@ -279,7 +291,20 @@ li {
     font-family: inter; 
 }
 .Contact{
+    display: flex;
     background-color: white;
     width:100vw ;
     height: 12vh;
+    align-items: center;
+}
+.connectMessage{
+    font-weight: bold;
+}
+.connectMessage:hover{
+    color: #9377cb;
+}
+.linkedIn_Logo{
+    height: 3vh;
+    aspect-ratio: 1/1;
+    margin-left: 2vw;
 }

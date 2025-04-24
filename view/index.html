@@ -11,15 +11,14 @@
         <div class="nav-bar"> 
             <span id="top-title">Christina Ou's Website</span>
             <div class="nav-items">
-                <a class="link">About</a>
-                <a class="link">Experience</a>
-                <a class="link">Projects</a>
-                <a class="link">Leadership and Activities </a>
-                <a class="link">Contact</a>
+                <a href="#about" class="link">About</a>
+                <a href="#workExperience" class="link">Experience</a>
+                <a href="#projects" class="link">Projects</a>
+                <a href="#leadershipAndActivities "class="link">Leadership and Activities </a>
             </div>
         </div>  
         <!-- about page  -->
-            <span class="welcome"> Welcome to my website portfolio!</span> 
+            <span id="about" class="welcome"> Welcome to my website portfolio!</span> 
             <div>
                 <img class="image" src="comp_image.png">
             </div>
@@ -28,17 +27,16 @@
                     <p> I'm a recent Computer Science graduate from Fordham University with a passion for expanding my knowledge in technology and development through meaningful work.</p>
             </div>
         <!-- links to sections of the site -->
-        <nav class="rec" id="one"><a> Work Experience </a></nav>
-        <nav class="rec" id="two"><a></a>Projects </a></nav>
-        <nav class="rec" id="three"><a>Leadership Experience and Activities</a></nav>
-
-        <footer> Work Experience </footer> 
+        <nav class="rec" id="one"><a href="#workExperience"> Work Experience </a></nav>
+        <nav class="rec" id="two"><a href="#projects">Projects </a></nav>
+        <nav class="rec" id="three"><a href="#leadershipAndActivities">Leadership Experience and Activities</a></nav>
+        
+        <footer id="workExperience"> Work Experience </footer> 
         <hr>
         <container>
         <div>
         <img class="logo" src="LC_bid.png">
         </div>
-
         <div class="square">
             <p class="jobTitle">Intern</p>
             <p class="companyInfo"><i>Lincoln Square Business Improvement District (BID)</i> is a 501(c)3 not-for-profit that improves the quality of life in Lincoln Square, a world-famous cosmopolitan area on Manhattan’s Upper West Side, and the cultural and entertainment heart of the City.
@@ -62,7 +60,7 @@
             </ul>
         </div>
         </container>
-        <footer class="project"> Project </footer> 
+        <footer id="projects" class="project"> Project </footer> 
         <hr>
         <a href="https://cugamedev.itch.io/alstroemeria" target="_blank" style="text-decoration:none; color:inherit;">
         <p class="projectTitle">Video Game: Alstroemeria| Columbia University| Game Development Club  <span id="projectDate"> May 2022</span></p> 
@@ -73,7 +71,7 @@
             <li>Collaborated with the illustrator and project leader to design game levels and ensured design corresponded with the game script.</li>
             <li>Utilized 2D tools through GitHub and Unity to execute designs, which contributed to the timely release of the game.</li>
         </ul>
-        <footer class="LEA">Leadership Experience & Activities</footer>
+        <footer id="leadershipAndActivities" class="LEA">Leadership Experience & Activities</footer>
         <hr>
         <div class="LEA_Section">
             <div class="LEA_CU">
@@ -110,8 +108,11 @@
                 <li>Initiated and led meaningful discussions on social justice, identity, and community.</li>
             </ul>
         </div>
+    <a href="https://www.linkedin.com/in/christina-j-ou/" target="_blank" style="text-decoration:none; color:inherit;">
         <div class="Contact">
-
+            <img class="linkedIn_Logo" src="LinkedIn.png ">
+            <span class="connectMessage"> Connect with me on LinkedIn!</span>
         </div>
+    </a>
     </body>
 </html>
