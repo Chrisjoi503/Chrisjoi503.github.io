@@ -1,19 +1,19 @@
 /* font familes */
 @font-face {
     font-family: inter;
-    src: url("fonts/Inter/static/Inter_18pt-Light.ttf");
+    src: url("./fonts/Inter/static/Inter_18pt-Light.ttf");
   }
 @font-face {
     font-family: inter_Dark;
-    src: url("fonts/Inter/static/Inter_18pt-Dark.ttf");
+    src: url("./fonts/Inter/static/Inter_18pt-Dark.ttf");
   }
 @font-face {
     font-family: silkFlower;
-    src: url("fonts/SilkFlowerDemo/Silk Flower.otf");
+    src: url("./fonts/SilkFlowerDemo/Silk Flower.otf");
   }
 @font-face{
     font-family:jakartaSans;
-    src:url("fonts/Plus_Jakarta_Sans/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
+    src:url("./fonts/Plus_Jakarta_Sans/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
   }
 /* how high up naviagted sections are displayed on the site when clicking nav-items*/
 :root{
