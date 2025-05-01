@@ -60,7 +60,7 @@ a{
     justify-content: space-between;
     gap: 2vw;
     padding-top: 4vh;
-    padding-left: 48vw;
+    padding-left: 48vw;  
 }
 /* fading in animation */
 @keyframes fadeIn {
@@ -206,6 +206,7 @@ li {
     margin-top: 20vh;
 }
 .projectTitle{
+    display: inline-block;
     margin-top: 6vh;
     margin-left: 25vw;
     margin-bottom: 5vh; 
@@ -218,14 +219,15 @@ li {
     color: #3d40a5;
 }
 #projectDate{
-    margin-left: 16vw;
+    margin-left: 13vw;
     font-size: 1.3vw;
+    font-weight: bold;
 }
 .projectTitle:hover #projectDate{
     color: black;
 }
 .gameImage{
-    width: 25vw;
+    width: 29vw;
     margin: auto;
     max-width: fit-content;
     display:block;
