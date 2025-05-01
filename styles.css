@@ -1,19 +1,19 @@
 /* font familes */
 @font-face {
     font-family: inter;
-    src: url("Inter/static/Inter_18pt-Light.ttf");
+    src: url("fonts/Inter/static/Inter_18pt-Light.ttf");
   }
 @font-face {
     font-family: inter_Dark;
-    src: url("Inter/static/Inter_18pt-Dark.ttf");
+    src: url("fonts/Inter/static/Inter_18pt-Dark.ttf");
   }
 @font-face {
     font-family: silkFlower;
-    src: url("SilkFlowerDemo/Silk Flower.otf");
+    src: url("fonts/SilkFlowerDemo/Silk Flower.otf");
   }
 @font-face{
-    font-family:jakartaSans ;
-    src:url(Plus_Jakarta_Sans/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+    font-family:jakartaSans;
+    src:url("fonts/Plus_Jakarta_Sans/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
   }
 /* how high up naviagted sections are displayed on the site when clicking nav-items*/
 :root{
@@ -155,7 +155,7 @@ container{
     width: 95vw;
     gap: 4.5vw;
     /* text */
-    font-family:jakartaSans ;
+    font-family:jakartaSans;
     color: black;
 }
 .square{
@@ -175,7 +175,7 @@ container{
     margin-top: 3vh;
     margin-left:4vw ;
     width:32vw;
-    font-size: 1.6vh;
+    font-size: 1.7vh;
 }
 #date{
     display: block; 
@@ -183,14 +183,14 @@ container{
     color: #828282;
 }
 .jobDescription{
-    margin-top: 8vh;
+    margin-top: 6.5vh;
     margin-left:2vw ;
     width:30vw;
-    font-weight: light;   
+    font-weight:400;   
 }
 /* spacing between bulleted items */
 li {
-    margin-bottom: 1vh;
+    margin-bottom: 1.5vh;
 }
 .logo{
     display: flex;
@@ -239,7 +239,6 @@ li {
     margin-right: auto;
     margin-top: 5vh;
     width: 35vw;
-    font-family: inter;
     line-height: 4vh;
     color: #828282;
     font-size: 1.3vw;
@@ -283,12 +282,10 @@ li {
 }
 .LEA_Date{
     font-style: normal;
-    font-family: inter;
     font-size: 1.7vh;
 }
 .LEA_Description{
     margin-left: 8.19vw;
-    font-family: inter; 
 }
 .Contact{
     display: flex;
