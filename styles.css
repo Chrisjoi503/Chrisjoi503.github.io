@@ -227,7 +227,8 @@ li {
 .gameImage{
     width: 25vw;
     margin: auto;
-    display: block;
+    max-width: fit-content;
+    display:block;
     aspect-ratio: 2.5/1;
     font-size: 1.3vw;
 }
