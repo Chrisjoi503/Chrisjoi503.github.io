@@ -48,6 +48,7 @@ a{
 /* website title on left corner of site */
 #top-title{
     display: flex;
+    width: fit-content;
     padding-top: 4vh;
     padding-left: 4vw;
     font-family: Arial, sans-serif;
@@ -60,7 +61,7 @@ a{
     justify-content: space-between;
     gap: 2vw;
     padding-top: 4vh;
-    padding-left: 48vw;  
+    padding-left: 50vw;  
 }
 /* fading in animation */
 @keyframes fadeIn {
@@ -92,8 +93,8 @@ a{
 .image{
     position: absolute;
     display: flex;
-    width:33vw ;
-    height: 52vh;
+    width:32vw ;
+    height: 53vh;
     margin-top: 3vh;
     margin-left:9.58vw;
 }
@@ -102,6 +103,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center; 
+    margin-top: 54vh;
     height:6.5vh;
     width: 23vw;
     border-radius: 1vw;
@@ -117,22 +119,19 @@ a{
 /* work exp btn */
 #one{
     position: absolute;
-    margin-left: 6.4vw;
-    margin-top: 54vh;
+    margin-left: 6.4vw; 
 }
 /* projects btn */
 #two{
     position: absolute;
     width: 15vw;
     margin-left: 32.4vw;
-    margin-top: 54vh;
 }
 /* Leadership experience btn */
 #three{
     position: absolute;
     width: 45vw;   
     margin-left: 50.4vw;
-    margin-top: 54vh;
 }
 /* line */
 hr{
@@ -148,7 +147,7 @@ footer{
     font-size: 45px;
     font-family: silkFlower;
 }
-container{   
+.container{   
     /* spacing of the divs for work exp.*/
     display: flex;
     justify-content: center;
@@ -290,16 +289,20 @@ li {
 .LEA_Description{
     margin-left: 8.19vw;
 }
-.Contact{
-    display: flex;
+.Contact {
+    display: inline-flex;
+    align-items: center;
     background-color: white;
-    width:100vw ;
+    width:100vw;
     height: 12vh;
+    margin: 0%;
+}
+
+.Contact a {
+    display: inline-flex;
     align-items: center;
 }
-.connectMessage{
-    font-weight: bold;
-}
+
 .connectMessage:hover{
     color: #9377cb;
 }
@@ -307,4 +310,159 @@ li {
     height: 3vh;
     aspect-ratio: 1/1;
     margin-left: 2vw;
+}
+/* for smaller screens (phones) */
+@media (max-width: 500px){
+    #top-title{
+        font-size: 3vw;
+        padding-top: 5vh;
+    }
+    .nav-items{
+        font-size: 2.4vw;
+        flex-wrap: nowrap;
+        padding-left: 15vw; 
+        padding-top: 5vh;
+    }
+    .welcome{
+        font-size: 8vw;
+        padding-left: 3vw;
+        width: 92vw;
+    }
+    .intro{
+        font-size: 12px;
+        width: 61vw;
+        margin-top: 9vh;
+        margin-left: 48vw;
+       
+    }
+    .image{
+        position: absolute;
+        width:55vw ;
+        height: 26vh; 
+        right: 57vw;
+    }
+    .button{
+        margin-top: 30vh;
+        height:3vh;
+        font-size: 3vw;
+        border-radius: 2vw;
+    }
+    #one{
+        margin-left: 3vw;
+        width: 30vw;
+    }
+    #two{
+        margin-left: 37vw;
+    }
+    #three{
+        margin-left: 55vw;
+        width: 58vw;
+    }
+    footer{
+        margin-top: 40vh;
+        font-size: 6vw;
+    }
+    .container{
+        margin-left: 2vw;
+        width:108vw;
+        gap: 2vw;
+    }
+    .square{
+       margin-top: 5vh;
+       width: 80vw;
+       height:55vh;
+    }
+    .jobTitle{
+       margin-top: 2vh;
+       margin-left: 15vw;
+       width: fit-content;
+       font-size: 3vw;
+    }
+    .companyInfo{
+        font-size: 2.3vw;
+        margin-right: 4vw;
+        width: fit-content;
+    }
+    .jobDescription{
+        margin-right: 5vw;
+        margin-left: 0%;
+        margin-top: 4vh;
+        font-size: 2.6vw;
+        width: fit-content;
+    }
+    li {
+        margin-bottom: 1.8vh;
+    }
+    .logo{
+        margin-top: 2vh;
+        height: 7vh;
+    }
+    .project{
+        margin-top: 12vh;
+    }
+    .projectTitle{
+        margin-top: 3vh;
+        margin-left: 8vw;
+        margin-right: 1vw;
+        margin-bottom: 4vh; 
+        font-size: 2.4vw;
+        width: 79vw;
+    }
+    #projectDate{
+       margin-left: 0;
+       font-size: 2.3vw;
+    }
+    .gameImage{
+        width: 90vw;
+        margin-left: 4vw;
+    }
+    .projectDescription{
+        width: 90vw;
+        font-size: 3.5vw;
+    }
+    .LEA{
+        margin-top: 16vh;
+    }
+    .LEA_Section{
+        font-size: 3vw;
+        margin-top: 3vh;
+    }
+    .LEA_CU{
+        width: 100vw;
+        gap: 15vw;
+    }
+    .LEA_UP{
+        width: 100vw;
+        gap: 50vw;
+    
+    }
+    .LEA_Role{
+        display: flex;
+        margin-top: 3vh;
+        margin-left: 8.19vw;
+        font-style: italic;
+    }
+    .role_CM{
+        width: 100vw;
+        gap: 56vw;
+    }
+    .role_FEC{
+        width: 100vw;
+        gap: 40vw;
+    }
+    .role_UPA{
+        width: 100vw;
+        gap: 48vw;
+    }
+    .LEA_Date{
+        font-size: 2.5vw;
+    }
+    .Contact{
+        width: 120vw;
+        height: 8vh;
+        gap: 2vw;
+    }
+    .linkedIn_Logo{
+        height: 2vh;
+    }
 }
