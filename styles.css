@@ -370,7 +370,7 @@ li {
     .square{
        margin-top: 5vh;
        width: 80vw;
-       height:60vh;
+       height:68vh;
     }
     .jobTitle{
        margin-top: 2vh;
@@ -403,14 +403,13 @@ li {
     .projectTitle{
         margin-top: 3vh;
         margin-left: 8vw;
-        margin-right: 1vw;
         margin-bottom: 4vh; 
         font-size: 2.4vw;
         width: 79vw;
     }
     #projectDate{
        margin-left: 0;
-       font-size: 2.3vw;
+       font-size: 2vw;
     }
     .gameImage{
         width: 90vw;
@@ -458,7 +457,7 @@ li {
         font-size: 2.5vw;
     }
     .Contact{
-        margin-top: 15vh;
+        margin-top: 20vh;
         width: 120vw;
         height: 8vh;
         gap: 2vw;
